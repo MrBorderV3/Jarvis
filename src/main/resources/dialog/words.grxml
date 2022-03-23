@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grammar PUBLIC "-//W3C//DTD GRAMMAR 1.0//EN" "http://www.w3.org/TR/speech-grammar/grammar.dtd">
+<grammar version="1.0" mode="voice" root="words">
+  <rule id="words" scope="public">
+    <item repeat="1-">
+      <one-of>
+        <item> jarvis </item>
+        <item> open </item>
+        <item> move </item>
+        <item> spotify </item>
+        <item> discord </item>
+        <item> chrome </item>
+        <item> shutdown </item>
+        <item> power </item>
+        <item> sound </item>
+        <item> maximize </item>
+        <item> focus </item>
+        <item> minimize </item>
+        <item> hide </item>
+      </one-of>
+    </item>
+  </rule>
+</grammar>
